@@ -1,0 +1,10 @@
+dataset,classifier,accuracy,precision,recall,f1,model_file
+diabetes_sample.csv,RandomForest,0.7467532467532467,0.6744186046511628,0.5370370370370371,0.5979381443298969,diabetes_sample_RandomForest_model.pkl
+diabetes_sample.csv,DecisionTree,0.6883116883116883,0.5652173913043478,0.48148148148148145,0.52,diabetes_sample_DecisionTree_model.pkl
+diabetes_sample.csv,GaussianNB,0.7402597402597403,0.6521739130434783,0.5555555555555556,0.6,diabetes_sample_GaussianNB_model.pkl
+heart_sample.csv,RandomForest,0.9853658536585366,1.0,0.9714285714285714,0.9855072463768116,heart_sample_RandomForest_model.pkl
+heart_sample.csv,DecisionTree,1.0,1.0,1.0,1.0,heart_sample_DecisionTree_model.pkl
+heart_sample.csv,GaussianNB,0.7219512195121951,0.7033898305084746,0.7904761904761904,0.7443946188340808,heart_sample_GaussianNB_model.pkl
+flu_sample.csv,RandomForest,0.525,0.5376344086021505,0.49019607843137253,0.5128205128205128,flu_sample_RandomForest_model.pkl
+flu_sample.csv,DecisionTree,0.515,0.5287356321839081,0.45098039215686275,0.48677248677248675,flu_sample_DecisionTree_model.pkl
+flu_sample.csv,GaussianNB,0.57,0.5769230769230769,0.5882352941176471,0.5825242718446602,flu_sample_GaussianNB_model.pkl
